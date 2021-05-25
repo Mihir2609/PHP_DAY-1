@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+
+</head>
+<body>
+<div class="regform"><h1> Registration Form</h1></div>
+<div class="mane">
+<form>
+<div id="name">
+<h2 class="name">Name</h2>
+<input class="firstname" type="rext" name="first_name"><br>
+<label class="firstlabel">first name</label>
+<input class="lastname" type="text" name="last_name">
+<label class="lastlabel">last name</label>
+</div>
+
+<h2 class="name">company</h2>
+<input class="company" type="text" name="company">
+
+<h2 class="name">Email</h2>
+<input class="Email" type="text" name="Email">
+
+<h2 class="name>phone</h2>
+<input class="code" type="text" name="area_code">
+<label class="area_code">Area code</label>
+<input class="number" type="text" name="phone">
+<label class="phone_number">phone number</label>
+
+<h2 class="name"> subject</h2>
+<select class="option" name="subject">
+<option disabled="disabled" selected="selected">--choose option</option>
+<option> siuject 1</option>
+<option> siuject 2</option>
+<option> siuject 3</option>
+
+</select>
+
+<h2 id="stydent">Are you beginner ?</h2>
+
+<label class="radio">
+<input class="radio-one" type="radio"  checked="checked name="">
+<span class="checkmark"></span>
+yes
+<label class="radio">
+<input class="radio-two" type="radio" name="">
+<span class="checkmark"></span>
+no
+</label>
+<button type="submit">Register</button>
+</form>
+</body>
+</html>
